@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './App.css';
 
-import { CardList } from './components/card-list/card-list.component.jsx'
+import { CardList } from './components/card/card-list.component.jsx'
 
 class App extends Component {
   constructor() {
