@@ -10,27 +10,23 @@
   .card-list {
     width: 85vw;
     grid-template-columns: 1fr;
-
   }
 }
 
 @media screen and (min-width: 426px) and (max-width: 786px) {
   .card-list {
     grid-template-columns: 1fr 1fr;
-
   }
 }
 
 @media screen and (min-width: 787px) and (max-width: 1024px) {
   .card-list {
     grid-template-columns: 1fr 1fr 1fr;
-
   }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1440px) {
+@media screen and (min-width: 1025px) {
   .card-list {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-
   }
 }
